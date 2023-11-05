@@ -35,10 +35,10 @@ const MainPage: React.FC<MainPageProps> = ({ backgroundImage, text }) => {
         <GridItem colSpan={3}>
           <Box
             bgImage={`url(${backgroundImage})`}
+            style={{ display: 'flex'}}
             bgSize="cover"
             bgPosition="center"
             h="100vh"
-            d="flex"
             position="relative"
           >
             <Box
@@ -92,7 +92,7 @@ const MainPage: React.FC<MainPageProps> = ({ backgroundImage, text }) => {
               bgSize="cover"
               bgPosition="center"
               h="88vh"
-              d="flex"
+              style={{ display: 'flex'}}
               position="relative"
             >
               <Box
@@ -156,7 +156,7 @@ const MainPage: React.FC<MainPageProps> = ({ backgroundImage, text }) => {
               bgSize="cover"
               bgPosition="center top"
               h="78vh"
-              d="flex"
+              style={{ display: 'flex'}}
               position="relative"
             >
               <Box
