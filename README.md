@@ -1,9 +1,9 @@
 
 # Undangan Application
 
-<center>
+<p align="center">
 <img src="public/assets-dokumentasi/header.png" alt="" />
-</center>
+</p>
 
 # Project Description
 
